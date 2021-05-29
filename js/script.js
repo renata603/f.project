@@ -74,6 +74,7 @@ todo.addEventListener('contextmenu', function(event){
     });
 });
 
+
 // когда прокручивается 20px от начала страницы, появляется кнопка "Вверх"
 window.onscroll = function() {scrollFunction()};
 
