@@ -66,8 +66,11 @@ body {
   .create_new_todo {
     text-align: center; }
   
+  @media (width: 320px) {
+  }  
+
   input[type=text] {
-    width: 376px;
+    width: auto;
     padding: 10px; }
   
   button {
