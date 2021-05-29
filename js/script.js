@@ -24,6 +24,13 @@ addButton.addEventListener('click', function(){
     addMessage.value = '';
 });
 
+// ввод данных по нажатию enter
+function createOnEnter(e) {
+    if (e.keyCode == 13)
+        document.getElementById('enter').click();
+}
+window.addEventListener("keyup", createOnEnter);
+
 function displayMessages(){
     let displayMessage = '';
     if(todoList.length === 0) todo.innerHTML = '';
